@@ -43,12 +43,12 @@ nav ul li a,
   font-size: 20px;
   font-family: "manrope";
 }
+
 .logo {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
   font-family: "manrope";
-  /* font-weight: 800; */
 }
 
 .hero {
@@ -328,10 +328,6 @@ h1 {
   animation: typewriter 6s steps(23) infinite;
   white-space: nowrap;
   overflow: hidden;
-  /* background: linear-gradient(100deg, #1150e4 40%, #dd1a75 46%, #fe4e11 50%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
   transition-property: animation 6s ease;
 }
 

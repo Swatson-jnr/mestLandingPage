@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 
 html::-webkit-scrollbar {
   display: none;
@@ -21,10 +21,6 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 1;
-}
-
-.logo img {
-  width: 100px;
 }
 
 nav ul {

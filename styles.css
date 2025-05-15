@@ -58,7 +58,7 @@ nav ul li a,
   position: absolute;
   inset: 0;
   height: 100%;
-  background: rgb(15, 21, 37, 0.8);
+  /* background: rgb(15, 21, 37, 0.8); */
   z-index: -1;
 }
 
@@ -134,8 +134,15 @@ ul li a:hover,
   letter-spacing: -2px;
   font-family: Inter Variable, Arial, sans-serif;
   margin-bottom: 50px;
+  font-family: "Outfit";
+  font-style: italic;
+  color: #fff;
+  -webkit-background-clip: ;
 }
 
+#pricing {
+  text-transform: capitalize;
+}
 .first-section p {
   text-align: center;
   font-size: 1.15rem;

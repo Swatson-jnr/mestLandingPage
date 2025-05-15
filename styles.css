@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} 
+}
 
 html::-webkit-scrollbar {
   display: none;
@@ -16,8 +16,9 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5px 10px;
-  background: linear-gradient(to top, #183b4e 50%, #183b4e 50%);
+  padding: 15px 10px;
+  /* background: linear-gradient(to top, #183b4e 50%, #a0c9df 50%); */
+  background: #05796b;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -73,12 +74,13 @@ nav ul li a,
 
 ul li a:hover,
 .logo:hover {
-  color: #dda853;
+  /* font-weight: 900; */
+  color: #000;
   transition: 0.3s linear;
 }
 
 .sign-in:hover {
-  color: #dda853;
+  color: #000;
   transition: 0.3s linear;
 }
 
@@ -89,7 +91,7 @@ ul li a:hover,
 }
 
 .first-section {
-  padding-top: 150px;
+  padding-top: 200px;
   text-align: center;
   color: #fff;
 }
@@ -110,7 +112,7 @@ ul li a:hover,
 }
 
 .contact_me:hover {
-  background-color: #183b4e;
+  background-color: #000;
   cursor: pointer;
   transform: scale(1.2);
   transition: 0.3s ease-in-out;

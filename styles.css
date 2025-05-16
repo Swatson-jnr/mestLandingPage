@@ -834,11 +834,18 @@ footer {
 .footer-container h1 {
   font-size: 20px;
   margin: 0;
+  cursor: pointer;
 }
 
 .footer-container a {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
+}
+
+.footer-container a:hover {
+  color: #000;
+  transition: 0.4s ease-in-out;
 }
 
 .copyright {
@@ -859,8 +866,13 @@ footer {
 .socials img {
   width: 20px;
   cursor: pointer;
+  transition: 0.4s ease-in-out;
 }
 
+.socials img:hover {
+  box-shadow: 3px 3px 23px rgb(161, 161, 241);
+  transition: 0.4s ease-in-out;
+}
 html {
   scroll-behavior: smooth;
 }

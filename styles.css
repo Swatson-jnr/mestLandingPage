@@ -127,17 +127,16 @@ ul li a:hover,
 }
 
 .first-section h1 {
-  font-size: 3.75rem;
+  font-size: 4rem;
   text-align: center;
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.2;
   letter-spacing: -2px;
   font-family: Inter Variable, Arial, sans-serif;
   margin-bottom: 50px;
-  font-family: "Outfit";
+  font-family: "Ancizar Serif";
   font-style: italic;
   color: #fff;
-  -webkit-background-clip: ;
 }
 
 #pricing {
@@ -449,8 +448,12 @@ h1 {
 
 .part {
   margin-top: 40px;
+  font-size: 25px;
 }
 
+.delight {
+  font-size: 20px;
+}
 .companies {
   width: 100vw;
   display: flex;
@@ -865,4 +868,5 @@ html {
 .about {
   text-align: center;
   margin-bottom: 30px;
+  font-size: 25px;
 }
